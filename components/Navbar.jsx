@@ -20,8 +20,8 @@ const Navbar = () => {
       router.asPath === "/property" ||
       router.asPath === "/crypto" ||
       router.asPath === "/netflix" ||
-      router.asPath === "/twitch"||
-      router.asPath ==="/Comingsoon"
+      router.asPath === "/twitch" ||
+      router.asPath === "/Comingsoon"
     ) {
       setNavBg("transparent");
       setLinkColor("#1f2937");
@@ -103,7 +103,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-auto"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 ease-in-out duration-500"
           }
         >
           <div>
@@ -159,7 +159,7 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#F76806]">
                 Let&#39;s Connect
               </p>
-              <div className="flex items-center justify-evenly my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
                   href="https://www.linkedin.com/"
                   target="_blank"
