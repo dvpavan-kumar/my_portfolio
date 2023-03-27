@@ -44,7 +44,7 @@ function Footer() {
 
         <div style={{ color: `${linkColor}` }} className="w-full h-20 grid text-center content-center justify-center">
           <h3 >
-            &#169;Handcrafted by me using <br/>
+            &#169;Handcrafted by me using
             <span className=" text-[#F76806]"> NextJs + Tailwindcss</span>.
           </h3>
       </div>

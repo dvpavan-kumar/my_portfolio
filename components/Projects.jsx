@@ -15,25 +15,25 @@ const Projects = () => {
           Projects
         </p>
         {/* <h2 className="py-4">What I&apos;ve Built</h2> */}
-        <div className="grid md:grid-cols-3 gap-8 ">
+        <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
-            title="foodblog inprogress..."
+            title="Food blog inprogress..."
             backgroundImg={foodimage}
             projectUrl="/Comingsoon"
             // tech="......."
           />
           <ProjectItem
-            title=" crypto website inprogress..."
+            title=" Crypto website inprogress..."
             backgroundImg={cryptoImg}
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
           />
-          <ProjectItem
+          {/* <ProjectItem
             title=" Netflix clone inprogress..."
             backgroundImg={netflixImg}
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
-          />
+          /> */}
           {/* <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
