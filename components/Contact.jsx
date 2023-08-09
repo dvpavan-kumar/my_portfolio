@@ -37,7 +37,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-evenly py-4">
-                  <a href="linkedin url/" target="_blank" rel="noreferrer">
+                  <a href="https://www.linkedin.com/in/dv-pavan-kumar/" target="_blank" rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <SiLinkedin />
                     </div>
@@ -74,6 +74,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="name"
+                      required
                     />
                   </div>
                   <div className="flex flex-col">
@@ -84,6 +85,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="phone"
+                      required
                     />
                   </div>
                 </div>
@@ -93,6 +95,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                     name="email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -101,6 +104,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="subject"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -109,6 +113,7 @@ const Contact = () => {
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                     name="message"
+                    required
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4 bg-gradient-to-r from-[#F76806] to-[#F4AB6A]">

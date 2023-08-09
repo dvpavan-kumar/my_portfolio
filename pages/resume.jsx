@@ -20,7 +20,7 @@ const resume = () => {
         <div className="bg-gradient-to-r from-[#F76806] to-[#F4AB6A] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">D.V.Pavan Kumar</h2>
           <div className="flex">
-            <a href="linked in url" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/dv-pavan-kumar" target="_blank" rel="noreferrer">
               <SiLinkedin size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a

@@ -59,7 +59,7 @@ const Main = () => {
             develop beautiful React Pages and I love what I do.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="paste my linked in url" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/dv-pavan-kumar/" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <SiLinkedin height={"20"} />
               </div>
