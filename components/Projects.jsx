@@ -1,10 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import foodimage from "../public/assets/projects/foodpage.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,13 +12,13 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
             title="Food blog inprogress..."
-            backgroundImg={foodimage}
+            backgroundImg="/assets/projects/foodpage.jpg"
             projectUrl="/Comingsoon"
             // tech="......."
           />
           <ProjectItem
             title=" Crypto website inprogress..."
-            backgroundImg={cryptoImg}
+            backgroundImg="/assets/projects/crypto.jpg"
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
           />

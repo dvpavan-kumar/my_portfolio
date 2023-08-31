@@ -1,11 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import { SiGmail } from "react-icons/si";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
+import React from "react";
+import { BsLinkedin,BsFillPersonLinesFill,BsGithub,BsTwitter} from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
 
 const Contact = () => {
   return (
@@ -22,8 +19,11 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300 h-6"
-                  src={ContactImg}
+                  src="/contact.jpg"
+                  width={400}
+                  height={300}
                   alt="/"
+                  priority
                 />
               </div>
               <div>
@@ -38,18 +38,28 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-evenly py-4">
                   <a href="https://www.linkedin.com/in/dv-pavan-kumar/" target="_blank" rel="noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <SiLinkedin />
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsLinkedin />
                     </div>
                   </a>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a href="https://github.com/dvpavan-kumar" target="_blank" rel="noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsGithub />
+                    </div>
+                  </a>
+                  <a href="https://twitter.com/dvpavan_kumar" target="_blank" rel="noreferrer">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsTwitter />
+                    </div>
+                  </a>
+                  {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a href="mailto:dpavan.vkumar@gmail.com">
                       <SiGmail />
                     </a>
-                  </div>
+                  </div> */}
                   <Link href="/resume">
                     <a>
-                      <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />
                       </div>
                     </a>

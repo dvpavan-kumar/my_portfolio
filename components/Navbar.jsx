@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GrContact } from "react-icons/gr";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill,BsGithub } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 
 import { useRouter } from "next/router";
@@ -102,7 +102,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 overflow-auto"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-5 ease-in duration-500 overflow-auto"
               : "fixed left-[-100%] top-0 ease-in-out duration-500"
           }
         >
@@ -155,18 +155,27 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-4">
               <p className="uppercase tracking-widest text-[#F76806]">
                 Let&#39;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/dv-pavan-kumar/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <SiLinkedin height={"20"} />
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/dvpavan-kumar"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsGithub height={"20"} />
                   </div>
                 </a>
                 <Link href="/#contact">

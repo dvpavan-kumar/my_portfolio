@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { SiGmail, SiLinkedin } from "react-icons/si";
+import { SiGmail, SiLinkedin,SiGithub,SiTwitter } from "react-icons/si";
 import { ImDownload3 } from "react-icons/im";
 
 const resume = () => {
@@ -18,24 +18,38 @@ const resume = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center pr-10">Resume</h2>
         <div className="bg-gradient-to-r from-[#F76806] to-[#F4AB6A] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">D.V.Pavan Kumar</h2>
+          <h2 className="text-center">Pavan.D</h2>
           <div className="flex">
             <a href="https://www.linkedin.com/in/dv-pavan-kumar" target="_blank" rel="noreferrer">
               <SiLinkedin size={20} style={{ marginRight: "1rem" }} />
+            </a>
+            {/* <a
+              href="mailto:dpavan.vkumar@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SiGmail size={20} style={{ marginRight: "1rem" }} />
+            </a> */}
+            <a
+              href="mailto:dpavan.vkumar@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SiTwitter size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
               href="mailto:dpavan.vkumar@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              <SiGmail size={20} style={{ marginRight: "1rem" }} />
+              <SiGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
               href="dpavan_resume.pdf"
               target="_blank"
               download="dpavan_resume.pdf"
             >
-              <ImDownload3 size={20} style={{ marginRight: "1rem" }} />
+              <ImDownload3 size={20} />
             </a>
           </div>
         </div>
