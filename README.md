@@ -6,7 +6,7 @@ This is my personal portfolio website built with Next.js and styled using Tailwi
 
 ## Live Demo
 
-You can check out the live demo of my portfolio website [https://www.example.com](https://dvpavan-kumar.vercel.app/].
+You can check out the live demo of my portfolio website [https://dvpavan-kumar.vercel.app/].
 
 ## Features
 
