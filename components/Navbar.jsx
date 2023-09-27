@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { GrContact } from "react-icons/gr";
-import { BsFillPersonLinesFill,BsGithub } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsGithub } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 
 import { useRouter } from "next/router";

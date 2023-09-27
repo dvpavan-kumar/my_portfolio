@@ -11,10 +11,10 @@ const Projects = () => {
         {/* <h2 className="py-4">What I&apos;ve Built</h2> */}
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
-            title="Food blog inprogress..."
-            backgroundImg="/assets/projects/foodpage.jpg"
-            projectUrl="/Comingsoon"
-            // tech="......."
+            title="Mini Projects"
+            backgroundImg="/assets/projects/mini-projects.jpg"
+            projectUrl="https://mini-projects-rho.vercel.app/"
+            tech="React js,TailwindCSS"
           />
           <ProjectItem
             title=" Crypto website inprogress..."
@@ -28,13 +28,13 @@ const Projects = () => {
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
           /> */}
-          {/* <ProjectItem
+           <ProjectItem
             title='Property Finder'
-            backgroundImg={propertyImg}
+            backgroundImg="/assets/projects/crypto.jpg"
             projectUrl='/property'
             tech='React JS'
           />
-          {/*<ProjectItem
+          {/* <ProjectItem
             title='Crypto App'
             backgroundImg={cryptoImg}
             projectUrl='/crypto'
@@ -54,7 +54,7 @@ const Projects = () => {
             projectUrl='/twitch'
             tech='Next JS'
 
-          /> */}
+          />  */}
         </div>
       </div>
     </div>
