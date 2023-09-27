@@ -28,12 +28,12 @@ const Projects = () => {
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
           /> */}
-           <ProjectItem
+           {/* <ProjectItem
             title='Property Finder'
             backgroundImg="/assets/projects/crypto.jpg"
             projectUrl='/property'
             tech='React JS'
-          />
+          /> */}
           {/* <ProjectItem
             title='Crypto App'
             backgroundImg={cryptoImg}
