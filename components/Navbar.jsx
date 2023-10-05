@@ -15,21 +15,21 @@ const Navbar = () => {
   const [position, setPosition] = useState("fixed");
   const router = useRouter();
 
-  useEffect(() => {
-    if (
-      router.asPath === "/property" ||
-      router.asPath === "/crypto" ||
-      router.asPath === "/netflix" ||
-      router.asPath === "/twitch" ||
-      router.asPath === "/Comingsoon"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#1f2937");
-    } else {
-      setNavBg("#ffffff");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/property" ||
+  //     router.asPath === "/crypto" ||
+  //     router.asPath === "/netflix" ||
+  //     router.asPath === "/twitch" ||
+  //     router.asPath === "/Comingsoon"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#1f2937");
+  //   } else {
+  //     setNavBg("#ffffff");
+  //     setLinkColor("#1f2937");
+  //   }
+  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);

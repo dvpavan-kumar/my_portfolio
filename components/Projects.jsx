@@ -8,7 +8,7 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#F76806]">
           Projects
         </p>
-        {/* <h2 className="py-4">What I&apos;ve Built</h2> */}
+        <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
             title="Mini Projects"
@@ -22,39 +22,6 @@ const Projects = () => {
             projectUrl="/Comingsoon"
             // tech="cryptowebsite "
           />
-          {/* <ProjectItem
-            title=" Netflix clone inprogress..."
-            backgroundImg={netflixImg}
-            projectUrl="/Comingsoon"
-            // tech="cryptowebsite "
-          /> */}
-           {/* <ProjectItem
-            title='Property Finder'
-            backgroundImg="/assets/projects/crypto.jpg"
-            projectUrl='/property'
-            tech='React JS'
-          /> */}
-          {/* <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />  */}
         </div>
       </div>
     </div>
