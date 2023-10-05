@@ -2,7 +2,8 @@
 
 This is my personal portfolio website built with Next.js and styled using Tailwind CSS.
 
-![Portfolio Screenshot] <img width="960" alt="image" src="https://github.com/dvpavan-kumar/my_portfolio/assets/128026613/27e6d728-bb11-468b-92ef-63e1d95e1e52">
+![Portfolio Screenshot] <img width="960" alt="image" src="<img width="958" alt="image" src="https://github.com/dvpavan-kumar/my_portfolio/assets/128026613/6ca759e5-a4d7-47a9-b9f3-9da1f709c48f">
+">
 
 ## Live Demo
 
