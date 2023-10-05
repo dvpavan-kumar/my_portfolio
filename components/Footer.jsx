@@ -18,7 +18,7 @@ function Footer() {
         <span>&#169;</span>
         {expanded && (
           <>
-            Handcrafted by me
+            Handcrafted by me using
             <span className="ml-2 text-white">NextJs + Tailwindcss</span>
           </>
         )}
