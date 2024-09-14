@@ -29,7 +29,7 @@ const Skills = () => {
             <Image loader={({ src }) => src}  src="/assets/skills/bootstrap.png" width="90px" height="65px" alt="/" />
           </div>
           <div>
-            <Image loader={({ src }) => src}  src="/assets/skills/StoryBlok.png"width="160px" height="64px" alt="/" />
+            <Image loader={({ src }) => src}  src="/assets/skills/StoryBlok.svg"width="160px" height="64px" alt="/" />
           </div>
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/Javascript.png" width="64px" height="64px" alt="/" />
