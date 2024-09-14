@@ -9,7 +9,7 @@ const netflix = () => {
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
-        {/* <Image
+        {/* <Image loader={({ src }) => src} 
           className='absolute z-1'
           layout='fill'
           objectFit='cover'

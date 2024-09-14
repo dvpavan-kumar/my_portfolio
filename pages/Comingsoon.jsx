@@ -7,7 +7,7 @@ const ComingSoon = () => {
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="bg-white rounded-lg shadow-md p-8 max-w-md w-full text-center">
         <div className="animate-pulse">
-          <Image
+          <Image loader={({ src }) => src} 
             src="/assets/astro.png"
             width={250}
             height={250}

@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div>
-                <Image
+                <Image loader={({ src }) => src} 
                   className="rounded-xl hover:scale-105 ease-in duration-300 h-6"
                   src="/assets/contact.jpg"
                   width={400}
