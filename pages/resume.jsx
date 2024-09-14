@@ -18,7 +18,7 @@ const resume = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center pr-10">Resume</h2>
         <div className="bg-gradient-to-r from-[#F76806] to-[#F4AB6A] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">Pavan.D</h2>
+          <h2 className="text-center">dpavan</h2>
           <div className="flex">
             <a href="https://www.linkedin.com/in/dv-pavan-kumar" target="_blank" rel="noreferrer">
               <SiLinkedin size={20} style={{ marginRight: "1rem" }} />
@@ -53,7 +53,7 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+        {/* <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
               Web Development <span className="px-1">|</span>Problem Solving
@@ -63,8 +63,8 @@ const resume = () => {
             <p className="py-2">Web Development</p>
             <p>Problem Solving</p>
           </div>
-        </div>
-        <p>
+        </div> */}
+        {/* <p>
           Analytical, innovative, and motivated web development professional
           with experience in customer service, Active team member, and
           organizational effectiveness in fast-paced and challenging
@@ -73,7 +73,6 @@ const resume = () => {
           optimizing efficiencies.
         </p>
 
-        {/* Skills */}
         <div className="text-center py-4 overflow-auto">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
@@ -90,12 +89,11 @@ const resume = () => {
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span> RESTAPI
           </p>
-        </div>
+        </div> */}
 
-        <h5 className="text-center underline text-[18px] py-4">
+        {/* <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
-        {/* Experience */}
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">TECH MAHINDRA</span>
@@ -120,10 +118,10 @@ const resume = () => {
             <li>
               Platform migration managing DNS servers as well as MX records and
               ensuring a smooth migration process.
-            </li> */}
+            </li> 
           </ul>
-        </div>
-        <div className="py-6">
+        </div> */}
+        {/* <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">HIYAMEE PRIVATE LIMITED</span>
             <span className="px-2">|</span>Bengaluru, Karnataka
@@ -149,8 +147,8 @@ const resume = () => {
               Storyblok APIs to retrieve and manage content.
             </li>
           </ul>
-        </div>
-        <div className="py-6">
+        </div> */}
+        {/* <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">
               ARIATECH IT SOLUTIONS PRIVATE LIMITED
@@ -175,7 +173,7 @@ const resume = () => {
             </li>
             <li>Learn and understand user interactions.</li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
