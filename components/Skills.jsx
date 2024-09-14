@@ -1,14 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ReactImg from "../public/assets/skills/react.png";
-import Tailwind from "../public/assets/skills/tailwind.png";
-import Github from "../public/assets/skills/github1.png";
-import NextJS from "../public/assets/skills/Nextjs.png";
-import Sass from "../public/assets/skills/Sass.png";
-import bootstrap from "../public/assets/skills/bootstrap.png";
-import StoryBlok from "../public/assets/skills/StoryBlok.svg";
-import JavaScript from "../public/assets/skills/Javascript.png";
-import Redux from "../public/assets/skills/Redux.png";
 
 const Skills = () => {
   return (
@@ -20,31 +11,31 @@ const Skills = () => {
         <h2 className="py-4">What I Can Do</h2>
         <div className=" p-3 lg:flex grid grid-cols-2 md:flex justify-between text-center gap-4">
           <div>
-            <Image src={ReactImg} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/react.png" width="64px" height="64px" alt="/" />
           </div>  
           <div>
-            <Image src={bootstrap} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/tailwind.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={Tailwind} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/github1.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={JavaScript} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/Nextjs.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={Redux} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/Sass.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={NextJS} width="90px" height="65px" alt="/" />
+            <Image src="/assets/skills/bootstrap.png" width="90px" height="65px" alt="/" />
           </div>
           <div>
-            <Image src={StoryBlok} width="160px" height="64px" alt="/" />
+            <Image src="/assets/skills/StoryBlok.png"width="160px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={Sass} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/Javascript.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
-            <Image src={Github} width="64px" height="64px" alt="/" />
+            <Image src="/assets/skills/Redux.png" width="64px" height="64px" alt="/" />
           </div>
         </div>
       </div>
