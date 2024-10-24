@@ -57,7 +57,7 @@ const Contact = () => {
                       <SiGmail />
                     </a>
                   </div> */}
-                  <Link href="/resume">
+                  <Link href="mailto:contact@dpavanz.com">
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />

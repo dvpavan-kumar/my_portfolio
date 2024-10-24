@@ -73,9 +73,9 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
-            </li>
+            {/* <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="mailto:dpavanz.com">Resume</Link>
+            </li> */}
             <li className="ml-10 text-sm uppercase hover:border-b text-[#F76806] font-extrabold ">
               <Link href="/#contact">Contact</Link>
             </li>
@@ -144,11 +144,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              {/* <Link href="mailto:dpavanz.com">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
-              </Link>
+              </Link> */}
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -186,7 +186,7 @@ const Navbar = () => {
                     <GrContact />
                   </div>
                 </Link>
-                <Link href="/resume">
+                <Link href="mailto:contact@dpavanz.com">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
