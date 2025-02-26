@@ -73,9 +73,9 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
             </li>
-            {/* <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="mailto:dpavanz.com">Resume</Link>
-            </li> */}
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/resume">Resume</Link>
+            </li>
             <li className="ml-10 text-sm uppercase hover:border-b text-[#F76806] font-extrabold ">
               <Link href="/#contact">Contact</Link>
             </li>
