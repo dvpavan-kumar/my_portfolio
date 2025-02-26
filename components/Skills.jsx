@@ -12,15 +12,22 @@ const Skills = () => {
         <div className=" p-3 lg:flex grid grid-cols-2 md:flex justify-between text-center gap-4">
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/react.png" width="64px" height="64px" alt="/" />
-          </div>  
+          </div> 
+          <div>
+            <Image loader={({ src }) => src}  src="/assets/skills/nextjs.svg" width="64px" height="64px" alt="/" />
+          </div>
+          <div>
+            <Image loader={({ src }) => src}  src="/assets/skills/typescript.png" width="64px" height="64px" alt="/" />
+          </div> 
+          <div>
+            <Image loader={({ src }) => src}  src="/assets/skills/Javascript.png" width="64px" height="64px" alt="/" />
+          </div>
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/tailwind.png" width="64px" height="64px" alt="/" />
+
           </div>
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/github1.png" width="64px" height="64px" alt="/" />
-          </div>
-          <div>
-            <Image loader={({ src }) => src}  src="/assets/skills/Nextjs.png" width="64px" height="64px" alt="/" />
           </div>
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/Sass.png" width="64px" height="64px" alt="/" />
@@ -29,10 +36,7 @@ const Skills = () => {
             <Image loader={({ src }) => src}  src="/assets/skills/bootstrap.png" width="90px" height="65px" alt="/" />
           </div>
           <div>
-            <Image loader={({ src }) => src}  src="/assets/skills/StoryBlok.svg"width="160px" height="64px" alt="/" />
-          </div>
-          <div>
-            <Image loader={({ src }) => src}  src="/assets/skills/Javascript.png" width="64px" height="64px" alt="/" />
+            <Image loader={({ src }) => src}  src="/assets/skills/storybook.svg"width="160px" height="64px" alt="/" />
           </div>
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/Redux.png" width="64px" height="64px" alt="/" />
