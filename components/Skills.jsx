@@ -41,6 +41,9 @@ const Skills = () => {
           <div>
             <Image loader={({ src }) => src}  src="/assets/skills/Redux.png" width="64px" height="64px" alt="/" />
           </div>
+          <div>
+            <Image loader={({ src }) => src}  src="/assets/skills/Nodejs.png" width="64px" height="64px" alt="/" />
+          </div>
         </div>
       </div>
     </div>

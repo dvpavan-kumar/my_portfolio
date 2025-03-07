@@ -11,13 +11,13 @@ export default function Resume() {
       <h2 className="text-[#F76806] text-2xl font-bold pl-4 mb-4">Resume - Pavan Kumar</h2>
 
       <iframe
-        src="/pavans-resume.pdf"
+        src="/DVPAVANKUMAR_RESUME.pdf"
         className="w-full max-w-3xl h-screen border rounded-lg"
       ></iframe>
 
       <div className="mt-4 flex space-x-4">
         <a
-          href="/pavans-resume.pdf"
+          href="/DVPAVANKUMAR_RESUME.pdf"
           download
           className="px-4 py-2 bg-[#F76806] text-white rounded-lg shadow transition duration-300 hover:bg-[#d35605] hover:text-white"
         >
